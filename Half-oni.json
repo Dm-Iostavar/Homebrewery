@@ -15,7 +15,7 @@
 	},
 	"race": [{
 		"name": "Half-Oni",
-		"source": "HB",
+		"source": "halfonihb",
 		"page": 1,
 		"srd": false,
 		"size": [
