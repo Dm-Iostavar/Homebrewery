@@ -2,13 +2,13 @@
 	"_meta": {
 		"sources": [{
 			"json": "halfonihb",
-			"abbreviation": "Half-Oni",
+			"abbreviation": "HalfOni",
 			"full": "Half-Oni",
 			"authors": [
 				"SkyBound"
 			],
 			"version": "1.0",
-			"url": ""
+			"url": "https://github.com/TheGiddyLimit/homebrew"
 		}],
 		"dateAdded": 1635442833,
 		"dateLastModified": 1635442833
@@ -154,10 +154,8 @@
 				"type": "entries"
 			}
 		],
-		"hasFluff": true,
-		"hasFluffImages": true
-	}
-		]
-}
-]
+		"hasFluff": false,
+		"hasFluffImages": false
+	}]
+}]
 }
