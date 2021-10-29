@@ -1,0 +1,178 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "soulbound",
+			"abbreviation": "SBA",
+			"full": "Soulbound",
+			"authors": [
+				"SkyBoundA"
+			],
+			"version": "1.0",
+			"url": "https://github.com/Dm-Iostavar/Homebrewery/blob/main/Half-oni.json"
+		}],
+		"dateAdded": 1635442833,
+		"dateLastModified": 1635442833
+	},
+	"race": [{
+		"name": "Soulbound",
+		"source": "SHB",
+		"page": 2,
+		"size": [
+			"S",
+			"M"
+		],
+		"creatureTypes": [
+			"construct"
+		],
+		"speed": 30,
+		"ability": [{
+			"con": 2,
+			"choose": {
+				"from": [
+					"str",
+					"dex",
+					"cha",
+					"int",
+					"wis"
+				],
+				"count": 1
+			}
+		}],
+		"heightAndWeight": {
+			"baseHeight": 30,
+			"heightMod": "4d12",
+			"baseWeight": 60,
+			"weightMod": "3d6"
+		},
+		"blindsight": 10,
+		"languageProficiencies": [{
+			"common": true,
+			"anyStandard": 1
+		}],
+		"immune": [
+			"poison"
+		],
+		"conditionImmune": [
+			"poisoned",
+			"disease",
+			"sleep"
+		],
+		"entries": [{
+				"name": "Age",
+				"type": "entries",
+				"entries": [
+					"Soulbound do not age but they risk madness once they have existed beyond the typical life span of their soul."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Creature Type",
+				"entries": [
+					"You are a Construct."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Ancestral Legacy",
+				"entries": [
+					"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.",
+					"If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.",
+					"You potentially retain the memories of your previous life."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Size",
+				"entries": [
+					"Your size depends on the suit of armor your inhabit. Your size is either Small or Medium."
+				]
+			},
+			{
+				"name": "Spectral Sight",
+				"entries": [
+					"While your helmet or hood is in place, you have blindsight out to 10 ft. Within that range, you can effectively see anything that isn't behind total cover, as if in dim light. While in darkness, things appear spectral and harder to grasp."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Living Armor",
+				"entries": [
+					"Your constructed body comes with benefits as well as downsides.",
+					{
+						"type": "list",
+						"items": [
+							"You are immune to the poison damage, {@condition poisoned} and sleep status.",
+							"You are immune to diseases, except for those that effect the soul.",
+							"You do not need to eat, drink, or sleep. You are immune to the effects of forced march.",
+							"You gain a +1 bonus to Armor Class. as long as you are proficient in that armor.",
+							"You always count as armored for the purpose of effects or damages dependent on armor. Effects depend on what the armor is made of, such as metal versus leather. Cloth does not hold this effect.",
+							"You are unable to be dismembered with piercing or slashing. Pieces may be destroyed with bludgeoning damage.",
+							"You may benefit from healing spells as if you were not a construct."
+						]
+					}
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Armor's Curse",
+				"entries": [{
+					"type": "list",
+					"items": [
+						"You are unable to truly feel the world any longer. You have disadvantage on all investigation checks dependent on touch/feel.",
+						"You are unable to benefit from any item that requires consumption, for example potions of healing.",
+						"Spells and effects that dispel or weaken magic have extreme effects on you. When subjected to dispel magic or an effect like it, you must make a constitution save or fall unconscious for 1 minute. The save DC is equal to 10 + spell level. While in areas of dead or anti magic you are rendered inert until removed. "
+					]
+				}],
+				"type": "entries"
+			},
+			{
+				"name": "Constructed Anatomy",
+				"entries": [
+					"While you don't need to sleep or eat, your constructed body needs repairs and your soul needs rest.",
+					{
+						"type": "list",
+						"items": [
+							"You allow your soul to rest and recede into itself. During a long rest, you must spend at least 4 hours in an inert but not unconscious state, you can still see and hear. During this time you gain all benefits of a long rest, except for hit points and hit dice.",
+							"You must spend at least 4 hours of a long rest repairing and tending to your armor. During this time, you can perform no other tasks. After, at the end of the long rest, all hit dice and hit points are restored."
+						]
+					}
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Unhinged Soul",
+				"entries": [
+					"When a soul has stretched its limits or strained itself, such as by too many soul transfers, they must make a wisdom save. Failure will result in a roll on the corresponding madness table. The DC is 10 + Madness rolls per week.",
+					"A soulbound must begin to make rolls on the soulbound madness table for each year past their normal life-span. This is decided by the average life-span of their former race.The DC starts at 0 and increases for each passing year. These rolls are always on the soulbound madness table.",
+					{
+						"type": "list",
+						"items": [
+							"A failure results in a roll on the short-term madness table.",
+							"A failure of 5 or greater results in a roll on the long term madness table.",
+							"A roll of a 1 results in an additional roll on the soulbound madness table."
+						]
+					}
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Specialized Tools",
+				"entries": [
+					"You gain proficiency with tools to repair yourself, depending on your starting armor. You have proficiency with either {@item Weaver's tools|phb}, {@item leatherworker's tools|phb}, or {@item smith's tools|phb}."
+				]
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and one other language of your choice."
+				],
+				"type": "entries"
+			}
+		],
+
+		"hasFluff": true,
+		"hasFluffImages": true
+	}]
+}
