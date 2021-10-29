@@ -40,9 +40,9 @@
 		}],
 		"heightAndWeight": {
 			"baseHeight": 30,
-			"heightMod": "4d12",
+			"heightMod": "5d12",
 			"baseWeight": 60,
-			"weightMod": "3d6"
+			"weightMod": "1d4"
 		},
 		"blindsight": 10,
 		"languageProficiencies": [{
